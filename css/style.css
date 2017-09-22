@@ -1,0 +1,32 @@
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+body{
+    font-family: 'Clan Web';
+}
+
+/*
+  ========================================
+  Button
+  ========================================
+*/
+
+.the-button{
+    padding-top: 20px;
+}
+
+.the-btn{
+    border: 1px solid #999999;
+    color: #666666;
+    font-weight: 400;
+    padding: 12px 50px; 
+    background: #FFFFFF;
+}
+
+.the-btn:hover{
+    border: 1px solid #999999;
+    background: #999999;
+    color: #FFFFFF;
+}
