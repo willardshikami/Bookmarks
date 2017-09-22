@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Clan Web"; 
+	font-style: normal; 
+	font-weight: 100;
+	src: url(../fonts/ff-clan-web-pro-thin.woff);
+}
+
+@font-face {	
+	font-family: "Clan Web"; 
+	font-style: normal; 
+	font-weight: 400;
+	src: url(../fonts/ff-clan-web-pro-book.woff);
+}
+
+@font-face {
+	font-family: "Clan Web"; 
+	font-style: normal; 
+	font-weight: 500;
+	src: url(../fonts/ff-clan-web-pro-news.woff);
+}
+
+@font-face {
+	font-family: "Clan Web"; 
+	font-style: normal; 
+	font-weight: 600;
+	src: url(../fonts/ff-clan-web-pro-medium.woff);
+}
