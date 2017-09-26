@@ -6,7 +6,7 @@ function saveBookmark(e) {
 	var siteName = document.getElementById('siteName').value;
 	var siteUrl = document.getElementById('siteUrl').value;
 
-if(formValidation(siteName, siteUrl)){
+if(!validateForm(siteName, siteUrl)){
 	return false;
 }
 
@@ -33,6 +33,9 @@ if(formValidation(siteName, siteUrl)){
 		//resetting localstorage after pushing
 		localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 	}
+
+		//clear form
+		document.getElementById('myForm').reset();
 
 		//refetch bookmarks
 			fetchBookmarks();
